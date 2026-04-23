@@ -16,3 +16,7 @@ or can run    $cargo run
 
 when ready for release:   $cargo build --release
 will add in optimizations
+
+
+$cargo update
+will update dependancies, despite the cargo lock version locks.
