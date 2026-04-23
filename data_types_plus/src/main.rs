@@ -1,19 +1,14 @@
 fn main() {
-    let x = 5;
-    println!("The val of x is {x}");
-    let x = 6;
-    println!("The val of x is {x}");
+    let num1 = 3.0;
+
+    let num2: f32 = 8.0;
 }
 
-// this is called shadowing. The second variable is now the main x, 
-// but if the second variable goes away (like in a sub scope) x returns to the prev val
+// What is the difference between scalar and compound
+// 4 Scalar, ints floats nums bools
+// signed int can be neg, u or unsigned must be positive. like writing on paper, when a sign matters, sign it
+// i8 = -128 to 127
+// u8 = 0 to 255
 
-fn main2() {
-    let y: i32 = 10;
-    {
-        let y = 20;
-        println!("the inner val of y is {}", y);
-    }
-    println!("the outer val y is {}", y);
-}
-
+// number literals can use _ in number. like 1000 or 1_000
+// all floats are signed
