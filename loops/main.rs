@@ -8,10 +8,25 @@ fn main () {
     // };
     // println!("done");
 
-    let arr = [1, 2, 3, 4, 5];
-    let len = arr.len();
-    println!("{len}");
-    for (let i = 0; i < 5; i++) {
-        println!("val = {idx}")
-    }
+    // let arr = [1, 2, 3, 4, 5];
+    // let len = arr.len();
+    // println!("{len}");
+    // 'a: loop {
+    //     break
+    // }
+
+    let x = [0; 5];
+    // 'a: loop {
+    //     x += 1;
+    //     'b: loop {
+    //         if x > 10 {
+    //             println!("{x}");
+    //             continue 'a;
+    //         } else {
+    //             break 'b;
+    //         }      
+    //     }
+    //     println!("{x}");
+    //     break;       
+    // }
 }
