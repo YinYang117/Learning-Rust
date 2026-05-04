@@ -11,7 +11,7 @@ fn main () {
     let arr = [1, 2, 3, 4, 5];
     let len = arr.len();
     println!("{len}");
-    for idx in arr {
+    for (let i = 0; i < 5; i++) {
         println!("val = {idx}")
     }
 }
